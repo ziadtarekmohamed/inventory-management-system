@@ -33,40 +33,6 @@ Tech Stack
 
 ---
 
-Project Structure
-
-inventory-management-system-firebase/
-│
-├── client/                         # Frontend (HTML, CSS, JS)
-│   ├── index.html                 # Main UI page
-│   ├── css/
-│   │   └── style.css              # Styles
-│   ├── js/
-│   │   ├── app.js                 # Main frontend logic
-│   │   ├── api.js                 # Handles API requests
-│   │   └── ui.js                  # UI rendering functions
-│   └── assets/                    # Images, icons, etc.
-│
-├── server/                         # Backend (Node.js + Express)
-│   ├── server.js                  # Entry point
-│   ├── routes/
-│   │   └── productRoutes.js       # API routes
-│   ├── controllers/
-│   │   └── productController.js   # Business logic
-│   ├── models/
-│   │   └── productModel.js        # Data structure
-│   ├── firebase/
-│   │   ├── config.js              # Firebase setup
-│   │   └── serviceAccountKey.json # Firebase credentials
-│   └── middleware/
-│       └── validation.js          # Input validation
-│
-├── .gitignore
-├── package.json
-└── README.md
-
----
-
 ## How It Works
 
 1. User enters product data in the UI
