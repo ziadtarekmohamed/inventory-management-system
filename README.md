@@ -17,7 +17,7 @@ It is built using **HTML, CSS (Frontend)** and **Node.js (Backend)**, with **Fir
 *  View all products in a dynamic table
 *  Update product information
 *  Delete products
-*  Search المنتجات بالاسم
+*  Search products
 *  Filter by category
 *  Highlight low stock items
 *  Real-time data updates using Firebase
